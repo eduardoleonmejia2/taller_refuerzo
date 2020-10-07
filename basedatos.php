@@ -7,7 +7,7 @@ class BaseDatos {
     private $password="";
 
     //Configure aqui el nombre de la BD
-    private $nombreBaseDatos="";
+    private $nombreBaseDatos="bd_refuerzo";
     
     private $conexion;
 
@@ -51,6 +51,7 @@ class BaseDatos {
 
 
     }
+
 
 }
 

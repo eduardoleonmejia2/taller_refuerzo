@@ -15,47 +15,42 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-4">
-                <form action="">
+                <form action="agregardatos.php" method="POST" class="mt-5 mb-5">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Cedula De Ciudadania</label>
+                    <input type="number" class="form-control" id="cedula" name="cedula" >
+                    <small  class="form-text text-muted">Ingresa por favor tu cedula de ciudadania.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" >
+                    <small  class="form-text text-muted">Ingresa por favor tu Nombre.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Apellidos</label>
+                    <input type="text" class="form-control" id="apellidos" name="apellidos" >
+                    <small  class="form-text text-muted">Ingresa por favor tus Apellidos.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Edad</label>
+                    <input type="text" class="form-control " id="edad" name="edad" >
+                    <small  class="form-text text-muted">Ingresa por favor tu Edad.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Telefono</label>
+                    <input type="number" class="form-control" id="telefono" name="telefono" >
+                    <small  class="form-text text-muted">Ingresa por favor tu Telefono.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Dirección</label>
+                    <input type="text" class="form-control" id="direccion" name="direccion">
+                    <small  class="form-text text-muted">Ingresa por favor tu Dirección.</small>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block"name="botonenviar">Registrar</button>
+ 
+                </form>
 
-                <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Cedula De Ciudadania</label>
-    <input type="number" class="form-control" >
-    <small  class="form-text text-muted">Ingresa por favor tu cedula de ciudadania.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Nombre</label>
-    <input type="text" class="form-control" >
-    <small  class="form-text text-muted">Ingresa por favor tu Nombre.</small>
-  </div>
- 
-</form>
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Apellidos</label>
-    <input type="text" class="form-control" >
-    <small  class="form-text text-muted">Ingresa por favor tus Apellidos.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Edad</label>
-    <input type="text" class="form-control" >
-    <small  class="form-text text-muted">Ingresa por favor tu Edad.</small>
-  </div>
- 
-</form>
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Telefono</label>
-    <input type="number" class="form-control" >
-    <small  class="form-text text-muted">Ingresa por favor tu Telefono.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Dirección</label>
-    <input type="text" class="form-control" >
-    <small  class="form-text text-muted">Ingresa por favor tu Dirección.</small>
-  </div>
-  <button type="submit" class="btn btn-primary btn-block">Registrar</button>
-</form>
+
 
     </main>
 
